@@ -27,3 +27,6 @@ jobs:
 
     - name: Print a message
       run: 'echo "Hello, world!... from: AP"'
+
+    - name: Testing custom action
+      uses: amitpathak-github/business-greetings-action@main
